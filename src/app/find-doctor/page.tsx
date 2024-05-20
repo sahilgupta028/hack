@@ -322,7 +322,7 @@ export default function Fleets(){
       </div>
 
       {/* Pagination */}
-      {/* <div className="mt-6 flex justify-center pb-6">
+      <div className="mt-6 flex justify-center pb-6">
         {[...Array(Math.ceil(cardData.length / 4)).keys()].map((number) => (
           <button
             key={number}
@@ -334,7 +334,7 @@ export default function Fleets(){
             {number + 1}
           </button>
         ))}
-      </div> */}
+      </div>
 
        </div>
        </div>
